@@ -11,7 +11,7 @@ A: 	.word 0x4c6D6548
 	# Dua hang so upimm vao 20bit cao cua register
 	# 12 bit thap cua thanh ghi dich = 0
 	lui s6,0x10010 # s6 = 0x10010000
-	addi s6,s6,0x040 # s6 = 0x1001020
+	addi s6,s6,0x040 # s6 = 0x1001040
 	#lui s4,0x456789 # s4 = 0x456789
 	#addi s4,s4,0x1ab # s4 = 0x4567891ab
 	
